@@ -6,8 +6,8 @@ export const todoContext=createContext({
     completed:false
   }],
   addTodo:(todo)=>{},
-  updatedTodo:(id,todo)=>{},
-  deletedTodo:(id)=>{},
+  updateTodo:(id,todo)=>{},
+  deleteTodo:(id)=>{},
   toggleComplete:(id)=>{}
 })
 // exporting hooks
